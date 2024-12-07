@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "oxygen";
+}
+
+
+/* .header{
+   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+   display: flex;
+  align-items: center;
+  justify-content:space-around; 
+ padding: 2rem 9%; 
+  background-color: #fff;
+  z-index: 1;
+  color: transparent;
+
+} */
+
+
+#navbar{
+ display: flex;
+ align-items: center;
+ background-color: aliceblue;
+ padding: 2rem 9%; 
+ justify-content: space-between;
+}
+
+
+#navbar .list ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#navbar .list ul li a{
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#navbar .list ul li a:hover{
+    color: darkorange;
+}
+
+
+
+#navbar .list .btn{
+  margin-left: 2rem;
+  
+}
+
+#navbar .list .btn .gee{
+  padding: 13px 20px;
+  border-radius: 5px;
+  border: 2px solid aliceblue;
+  background-color: #fff;
+  color:#000000;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
+
+  
+}
+
+#navbar .list .btn .gee:hover{
+  background-color: aliceblue;
+}
+
+
+#navbar .list .btn .ok{
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: darkorange;
+  border: none;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+
+#navbar .list .btn .ok:hover{
+  background-color: coral;
+}
+
+section{
+  padding: 2rem 9%; 
+}
+
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+
+#container .heading h1{
+  font-weight: 900;
+  font-size:2rem;
+  color: #000000;
+  margin-bottom: 3rem;
+  
+}
+
+#container .heading p{
+  font-weight: 700;
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 3rem;
+}
+
+/* #container .heading .class{
+  gap: 2rem;
+} */
+
+
+#container .heading .class button{
+  padding: 20px;
+  width: 50%;
+  background-color: darkorange;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  /* margin-left: 2rem; */
+}
+
+
+#container .heading .class button:hover{
+  background-color: coral ;
+}
+
+#container .heading .class a{
+  color: darkorange;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+
