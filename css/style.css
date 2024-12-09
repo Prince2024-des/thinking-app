@@ -83,12 +83,14 @@
   font-weight: 700;
   font-size: 20px;
   margin-right: 10px;
+  cursor: pointer;
 
   
 }
 
 #navbar .list .btn .gee:hover{
   background-color: aliceblue;
+  border: 4px solid gold;
 }
 
 
@@ -100,6 +102,7 @@
   border: none;
   font-weight: 700;
   font-size: 21px;
+  cursor: pointer;
 }
 
 
@@ -134,7 +137,7 @@ section{
 }
 
 #container .heading p{
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   color: grey;
   margin-bottom: 3rem;
@@ -227,6 +230,7 @@ section{
   font-weight: 700;
   font-size: 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 
@@ -373,14 +377,120 @@ section{
 
 
 
-
-
-
-
-
-
-
 /* product section ends here */
+
+
+/* about section ends here */
+
+#about{
+  text-align: center;
+  margin-top: 4rem;
+  background: antiquewhite;
+
+  
+  /* background-color:wheat; */
+}
+
+#about .about-head h1{
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+
+
+#about .about-head p{
+  font-weight:500;
+  font-size:18px;
+  margin-bottom: 1.5rem;
+}
+
+
+#about .about-head .btn button{
+     padding: 15px;
+     width: 20%;
+     border-radius: 5px;
+     border: none;
+     background-color: darkorange;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 700;
+     cursor: pointer;
+    
+}
+
+
+#about .about-head .btn button:hover{
+  background-color: coral;
+}
+
+
+
+/* about section ends here */
+
+
+/* customer section starts here */
+
+#customer{
+  margin-top: 5rem;
+}
+
+
+#customer .customer-header h1{
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  /* display: flex; */
+}
+
+#customer .customer-header p{
+  margin-bottom: 1rem;
+  font-weight:500;
+  font-size:18px;
+  margin-bottom: 1.5rem;
+
+}
+
+
+
+
+#customer .customer-image{
+  display: flex;
+  /* align-items: center; */
+  gap: 1.5rem;
+}
+
+
+#customer .customer-image .div h3{
+  font-weight:400;
+  font-size:16px;
+  margin-top: 1rem;
+}
+
+
+
+#customer .customer-image .div h3 span{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#customer .customer-image .div h3 span:hover{
+    color: darkorange;
+}
+
+#customer .customer-image .div p{
+      font-weight: bolder;
+      font-size: 25px;
+      margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+/* customer section ends here */
 
 
 
