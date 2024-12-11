@@ -501,10 +501,24 @@ section {
 }
 
 
-
-
-
-
-
-
 /* pricing section ends here */
+
+
+/* footer section starts here */
+ #footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+ }
+
+ #footer h1{
+  font-weight: 500;
+  font-size: 15px;
+  /* background-color: aliceblue; */
+ }
+
+
+
+
+/* footer section ends here */
