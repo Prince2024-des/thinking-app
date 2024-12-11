@@ -1,17 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: "oxygen";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "oxygen";
 }
-
 
 /* .header{
    position: fixed;
@@ -30,17 +26,17 @@
 
 /* #navbar section starts here */
 
-#navbar{
- display: flex;
- align-items: center;
- margin-bottom: 4rem;
- background-color: #fff;
- padding: 2rem 9%; 
- justify-content: space-between;
- position: fixed;
+#navbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  background-color: #fff;
+  padding: 2rem 9%;
+  justify-content: space-between;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0; 
+  right: 0;
   z-index: 0;
   /* backdrop-filter: blur(100%); */
   /* overflow: hidden; */
@@ -49,53 +45,45 @@
   /* background-color: transparent; */
 }
 
-
-#navbar .list ul{
+#navbar .list ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-#navbar .list ul li a{
+#navbar .list ul li a {
   color: black;
   padding: 10px;
   font-weight: 700;
   font-size: 15px;
 }
 
-#navbar .list ul li a:hover{
-    color: darkorange;
+#navbar .list ul li a:hover {
+  color: darkorange;
 }
 
-
-
-#navbar .list .btn{
+#navbar .list .btn {
   margin-left: 2rem;
-  
 }
 
-#navbar .list .btn .gee{
+#navbar .list .btn .gee {
   padding: 13px 20px;
   border-radius: 5px;
   border: 2px solid aliceblue;
   background-color: #fff;
-  color:#000000;
+  color: #000000;
   font-weight: 700;
   font-size: 17px;
   margin-right: 10px;
   cursor: pointer;
-
-  
 }
 
-#navbar .list .btn .gee:hover{
+#navbar .list .btn .gee:hover {
   background-color: aliceblue;
   border: 4px solid gold;
 }
 
-
-#navbar .list .btn .ok{
+#navbar .list .btn .ok {
   padding: 12px 25px;
   border-radius: 5px;
   color: #fff;
@@ -106,16 +94,14 @@
   cursor: pointer;
 }
 
-
-#navbar .list .btn .ok:hover{
+#navbar .list .btn .ok:hover {
   background-color: coral;
 }
 
 /* #navbar section ends here */
-  
 
-section{
-  padding: 3rem 9%; 
+section {
+  padding: 3rem 9%;
 }
 
 /* #container  section starts here */
@@ -129,15 +115,14 @@ section{
   /* justify-content: center; */
 }
 
-#container .heading h1{
+#container .heading h1 {
   font-weight: bolder;
-  font-size:40px;
+  font-size: 40px;
   color: #000000;
   margin-bottom: 3rem;
-  
 }
 
-#container .heading p{
+#container .heading p {
   font-weight: 400;
   font-size: 20px;
   color: grey;
@@ -148,8 +133,7 @@ section{
   gap: 6rem;
 } */
 
-
-#container .heading .class button{
+#container .heading .class button {
   padding: 20px;
   width: 50%;
   background-color: darkorange;
@@ -161,12 +145,11 @@ section{
   /* margin-left: 2rem; */
 }
 
-
-#container .heading .class button:hover{
-  background-color: coral ;
+#container .heading .class button:hover {
+  background-color: coral;
 }
 
-#container .heading .class a{
+#container .heading .class a {
   color: darkorange;
   font-weight: 700;
   font-size: 24px;
@@ -174,16 +157,15 @@ section{
   text-decoration: underline;
 }
 
-#container .image img{
+#container .image img {
   width: 100%;
 }
 
 /* #container section ends here */
 
-
 /* #content section starts here */
 
-#content h1{
+#content h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 50px;
@@ -197,35 +179,32 @@ section{
   justify-content: space-between;
 }
 
- #content .content-head .div .ok{
+#content .content-head .div .ok {
   width: 5rem;
 }
 
-
-#content .content-head .div h2{
-     font-weight: 600;
-     font-size: 20px;
-     margin-bottom: 10px;
+#content .content-head .div h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-
-#content .content-head .div p{
+#content .content-head .div p {
   font-size: 15px;
   font-weight: 400;
 }
 
-#content  .image{
+#content .image {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
 }
 
-
-#content .image button{
+#content .image button {
   padding: 15px;
   width: 20%;
-  background-color:darkorange ;
+  background-color: darkorange;
   border: none;
   color: #fff;
   font-weight: 700;
@@ -234,268 +213,294 @@ section{
   cursor: pointer;
 }
 
-
-#content .image button:hover{
+#content .image button:hover {
   background-color: coral;
 }
 
-
-
-
 /* content section ends here */
-
 
 /* confirm section ends here */
 
-#confirm{
+#confirm {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
   margin-top: 3rem;
 }
 
-#confirm .confirm-head h3{
-   font-weight: 400;
-   font-size: 19px;
-   margin-bottom: 5px;
+#confirm .confirm-head h3 {
+  font-weight: 400;
+  font-size: 19px;
+  margin-bottom: 5px;
 }
 
-#confirm .confirm-head h1{
+#confirm .confirm-head h1 {
   font-weight: bolder;
   font-size: 30px;
   margin-bottom: 4px;
 }
 
-#confirm .confirm-head p{
+#confirm .confirm-head p {
   font-weight: 400;
-   font-size: 15px;
-   margin-bottom: 1rem;
+  font-size: 15px;
+  margin-bottom: 1rem;
 }
 
-#confirm .confirm-head .me h2{
-   font-size: 22px;
-   font-weight: bold;
-   margin-bottom: 1rem;
+#confirm .confirm-head .me h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
-#confirm .image img{
+#confirm .image img {
   width: 90%;
 }
 
-
-
-
 /* confirm section ends here */
-
 
 /* order section starts here */
 
-#order{
+#order {
   display: flex;
   gap: 2rem;
 }
 
-#order .image img{
+#order .image img {
   width: 90%;
 }
 
-
-#order .order-div h2{
+#order .order-div h2 {
   font-weight: 400;
-   font-size: 19px;
-   margin-bottom: 1rem;
+  font-size: 19px;
+  margin-bottom: 1rem;
 }
 
-#order .order-div h1{
+#order .order-div h1 {
   font-weight: bolder;
   font-size: 30px;
   margin-bottom: 1rem;
 }
 
-#order .order-div p{
-  font-weight:400;
-  font-size:16px;
+#order .order-div p {
+  font-weight: 400;
+  font-size: 16px;
   margin-bottom: 1rem;
 }
 
-
-#order .order-div .image-head .icon{
+#order .order-div .image-head .icon {
   display: flex;
   align-items: center;
   /* justify-content: center; */
   gap: 2rem;
 }
 
-
-#order .order-div .image-head .icon p{
+#order .order-div .image-head .icon p {
   margin-top: 1rem;
 }
 
-
-
 /*order section starts here */
-
 
 /*product section starts here */
 
-#product{
+#product {
   display: flex;
   justify-content: space-between;
   /* gap: 2rem; */
 }
 
-#product .product-header h3{
+#product .product-header h3 {
   color: darkgrey;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-
-#product .product-header h1{
+#product .product-header h1 {
   font-weight: bolder;
   font-size: 50px;
   margin-bottom: 1rem;
 }
 
-
-#product .product-header p{
-  font-weight:400;
-  font-size:16px;
+#product .product-header p {
+  font-weight: 400;
+  font-size: 16px;
   margin-bottom: 1rem;
 }
 
-
-#product .product-header .me h2{
+#product .product-header .me h2 {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-#product .image img{
+#product .image img {
   width: 90%;
 }
 
-
-
 /* product section ends here */
-
 
 /* about section ends here */
 
-#about{
+#about {
   text-align: center;
   margin-top: 4rem;
   background: antiquewhite;
 
-  
   /* background-color:wheat; */
 }
 
-#about .about-head h1{
+#about .about-head h1 {
   font-weight: bolder;
   font-size: 40px;
   margin-bottom: 1.5rem;
 }
 
-
-#about .about-head p{
-  font-weight:500;
-  font-size:18px;
+#about .about-head p {
+  font-weight: 500;
+  font-size: 18px;
   margin-bottom: 1.5rem;
 }
 
-
-#about .about-head .btn button{
-     padding: 15px;
-     width: 20%;
-     border-radius: 5px;
-     border: none;
-     background-color: darkorange;
-     color: #fff;
-     font-size: 20px;
-     font-weight: 700;
-     cursor: pointer;
-    
+#about .about-head .btn button {
+  padding: 15px;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  background-color: darkorange;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-
-#about .about-head .btn button:hover{
+#about .about-head .btn button:hover {
   background-color: coral;
 }
 
-
-
 /* about section ends here */
-
 
 /* customer section starts here */
 
-#customer{
+#customer {
   margin-top: 5rem;
 }
 
-
-#customer .customer-header h1{
+#customer .customer-header h1 {
   font-weight: 800;
   font-size: 40px;
   margin-bottom: 1rem;
   /* display: flex; */
 }
 
-#customer .customer-header p{
+#customer .customer-header p {
   margin-bottom: 1rem;
-  font-weight:500;
-  font-size:18px;
+  font-weight: 500;
+  font-size: 18px;
   margin-bottom: 1.5rem;
-
 }
 
-
-
-
-#customer .customer-image{
+#customer .customer-image {
   display: flex;
   /* align-items: center; */
   gap: 1.5rem;
 }
 
-
-#customer .customer-image .div h3{
-  font-weight:400;
-  font-size:16px;
+#customer .customer-image .div h3 {
+  font-weight: 400;
+  font-size: 16px;
   margin-top: 1rem;
 }
 
-
-
-#customer .customer-image .div h3 span{
+#customer .customer-image .div h3 span {
   font-weight: bolder;
   font-size: 18px;
 }
 
-#customer .customer-image .div h3 span:hover{
-    color: darkorange;
+#customer .customer-image .div h3 span:hover {
+  color: darkorange;
 }
 
-#customer .customer-image .div p{
-      font-weight: bolder;
-      font-size: 25px;
-      margin-top: 1rem;
+#customer .customer-image .div p {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 1rem;
 }
-
-
 
 /* customer section ends here */
 
 /* pricing section starts here */
 
-
-#pricing .pricing-header{
+#pricing .pricing-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+
+#pricing .pricing-header .pricing-div{
+  margin-top: 5rem;
+}
+
+#pricing .pricing-header .pricing-div h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+#pricing .pricing-header .pricing-div ul{
+  font-weight: 500;
+  font-size: 16px;
+  /* margin-bottom: 1rem; */
+}
+
+#pricing .pricing-header .pricing-div ul li{
+  margin-bottom: 5px;
+}
+
+
+#pricing .pricing-header .head{
+  margin-top:5rem;
+}
+
+
+#pricing .pricing-header .head h1{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+#pricing .pricing-header .head input{
+  padding: 10px;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 0;
+  
+}
+
+
+#pricing .pricing-header .head input:hover{
+  border: 3px solid gold;
+}
+
+
+#pricing .pricing-header .head .btn button{
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  background-color: darkorange;
+  border: 2px solid aliceblue;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#pricing .pricing-header .head .btn button:hover{
+  background-color: coral;
+}
+
+
 
 
 
@@ -503,4 +508,3 @@ section{
 
 
 /* pricing section ends here */
-
