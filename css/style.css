@@ -42,6 +42,7 @@
   left: 0;
   right: 0; 
   z-index: 0;
+  /* backdrop-filter: blur(100%); */
   /* overflow: hidden; */
   /* scroll-behavior: smooth; */
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
@@ -485,12 +486,21 @@ section{
 
 
 
-
-
-
-
-
 /* customer section ends here */
 
+/* pricing section starts here */
 
+
+#pricing .pricing-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/* pricing section ends here */
 
