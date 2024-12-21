@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
-    <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css -->
-    <link rel="stylesheet" href="">
+    
 </head>
     <!-- navbar section starts here -->
       <section id="navbar">
          <div class="navbar-logo">
             <img src="./images/logo.png" alt="">
          </div>
-         <div class="list">
-            <ul>
+         <!-- <div class="list"> -->
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li><a href="">Product</a></li>
                 <li><a href="">Customers</a></li>
                 <li><a href="">Pricing</a></li>
@@ -24,7 +24,18 @@
                     <button class="ok">Sign Up</button>
                  </div>
             </ul>
-         </div>
+            <ul>
+                <li class="hideOnMobile"><a href="">Product</a></li>
+                <li class="hideOnMobile"><a href="">Customers</a></li>
+                <li class="hideOnMobile"><a href="">Pricing</a></li>
+                <li class="hideOnMobile"><a href="">Resources</a></li>
+                <div class="btn">
+                    <button class="gee">Sign In</button>
+                    <button class="ok">Sign Up</button>
+                 </div>
+                 <li class="menu-btn" onclick=showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+         <!-- </div> -->
          
       </section>
     <!-- navbar section ends here -->

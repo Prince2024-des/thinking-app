@@ -37,36 +37,101 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 0;
-  /* backdrop-filter: blur(100%); */
+  z-index: 1;
+  /* backdrop-filter: blur(50px); */
   /* overflow: hidden; */
   /* scroll-behavior: smooth; */
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
   /* background-color: transparent; */
 }
 
-#navbar .list ul {
+
+
+#navbar .sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  /* margin-top: -5rem; */
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding: 10px; */
+  z-index: 999;
+   background-color: white; 
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
+
+  
+
+} 
+
+
+#navbar ul .menu-btn{
+  display: none;
+}
+
+#navbar .sidebar li{
+   display: flex;
+  flex-direction: column;
+  /* margin-top: 5rem; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  width: 100%;
+  
+
+}
+
+
+#navbar .sidebar li a{
+  width: 100%;
+  /* font-size: 25px; */
+  /* margin-top: -2rem; */
+  /* display: flex; */
+}
+
+
+ #navbar .sidebar .btn{
+  display: flex;
+  margin-left: -0.3px;
+  /* width: 100%; */
+  margin-top: 3rem;
+  
+  
+}
+
+#navbar .sidebar .btn button{
+  font-size: 10px;
+  /* margin-left: auto; */
+}
+
+
+
+
+
+#navbar  ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#navbar .list ul li a {
+#navbar  ul li a {
   color: black;
   padding: 10px;
   font-weight: 700;
   font-size: 15px;
 }
 
-#navbar .list ul li a:hover {
+#navbar  ul li a:hover {
   color: darkorange;
 }
 
-#navbar .list .btn {
+#navbar  .btn {
   margin-left: 2rem;
 }
 
-#navbar .list .btn .gee {
+#navbar  .btn .gee {
   padding: 13px 20px;
   border-radius: 5px;
   border: 2px solid aliceblue;
@@ -78,12 +143,12 @@
   cursor: pointer;
 }
 
-#navbar .list .btn .gee:hover {
+#navbar  .btn .gee:hover {
   background-color: aliceblue;
   border: 4px solid gold;
 }
 
-#navbar .list .btn .ok {
+#navbar  .btn .ok {
   padding: 12px 25px;
   border-radius: 5px;
   color: #fff;
@@ -94,7 +159,7 @@
   cursor: pointer;
 }
 
-#navbar .list .btn .ok:hover {
+#navbar  .btn .ok:hover {
   background-color: coral;
 }
 
@@ -518,7 +583,278 @@ section {
   /* background-color: aliceblue; */
  }
 
-
-
-
 /* footer section ends here */
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+     #navbar{
+      width: 100%;
+      gap: 2rem;
+      /* padding: 1rem 5%; */
+      
+     }
+
+     #navbar .navbar-logo img{
+      width: 5rem;
+      margin-left: 1rem;
+     }
+     
+     #navbar ul .hideOnMobile{
+      display: none;
+     }
+
+     #navbar ul .btn{
+      display: none;
+     }
+
+     #navbar ul .menu-btn{
+      display: block;
+     }
+
+     #container {
+      display: block;
+      align-items: center;
+      /* justify-content: center;  */
+      }
+
+      #container .heading h1{
+        font-size:20px ;
+        text-align: center;
+       }
+
+       #container .heading p {
+        font-size: 10px;
+        text-align: center;
+        font-weight: 500;
+       }
+
+       #container .heading .class {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+       }
+
+
+       #container .heading .class button{
+        /* text-align: center; */
+        width: 100%;
+       }
+
+
+       #content{
+        display: block;
+        align-items: center;
+        /* justify-content: center; */
+       }
+
+
+       #content h1{
+        font-size: 25px;
+        margin-bottom: 3rem;
+       }
+
+
+       #content .content-head{
+        display: block;
+        align-items: center;
+        /* width: 100%; */
+        /* justify-content: center; */
+       }
+
+
+       #content .content-head .div{
+        text-align: center;
+        
+       }
+
+
+       #content .image button{
+        width: 90%;
+       }
+
+
+       #confirm {
+        display: block;
+        align-items: center;
+        /* justify-content: center; */
+       }
+
+       #confirm .confirm-head h3{
+        font-size: 15px;
+
+       }
+
+       /* #confirm .confirm-head h1{
+        text-align: center;
+       } */
+
+
+       #confirm .confirm-head p{
+        font-size: 10px;
+
+       }
+
+
+       #order {
+        display: block;
+        align-items: center;
+
+       }
+
+       #product{
+        display: block;
+       }
+
+
+       #product .product-header p{
+        font-size: 10px;
+       }
+
+
+       #about{
+        display: block;
+        align-items: center;
+       }
+
+       #about .about-head h1{
+        font-size: 25px;
+       }
+
+
+       #about .about-head p{
+        font-size: 10px;
+       }
+
+
+       #about .about-head .btn button {
+        width: 50%;
+        font-size: 10px;
+       }
+
+
+
+       #customer{
+        display: block;
+       }
+
+
+       #customer .customer-header h1 {
+        font-size: 30px;
+       }
+
+       #customer .customer-image{
+        display: block;
+       }
+
+
+       #customer .customer-image .div img{
+             width: 100%;
+       }
+
+
+
+       #customer .customer-image .div p{
+        font-size: 15px;
+        
+       }
+
+       #pricing{
+        display: block;
+       }
+
+
+       #pricing .pricing-header{
+        display: block;
+        /* justify-content: center; */
+        align-items: center;
+       }
+
+       #pricing .pricing-header .pricing-div{
+        text-align: center;
+        margin-top: 3rem;
+       } 
+
+       #pricing .pricing-header .pricing-div h1{
+        margin-bottom: 1rem;
+        font-size: 22px;
+       }
+
+       #pricing .pricing-header .head{
+         text-align: center;
+       }
+
+
+       #footer h1{
+        font-size: 10px;
+       }
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+     
+     }
+
+     
+
+    
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
