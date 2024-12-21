@@ -793,33 +793,10 @@ section {
         font-size: 10px;
        }
 
-
-
-
-
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
      
      }
 
      
-
-    
-
-
 
 
 
@@ -828,7 +805,239 @@ section {
  ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
-  /* CSS */
+  #navbar{
+    width: 100%;
+    gap: 2rem;
+    
+   }
+
+   #navbar .navbar-logo img{
+    width: 5rem;
+    margin-left: 2rem;
+   }
+
+
+   #navbar ul .hideOnMobile{
+    display: none;
+   }
+
+   #navbar ul .btn{
+    display: none;
+   }
+
+
+   #navbar ul .menu-btn{
+    display: block;
+    width: 2rem;
+   }
+
+   #container {
+    display: block;
+    align-items: center;
+    }
+
+    #container .heading h1{
+      font-size:30px ;
+      text-align: center;
+     }
+
+     #container .heading p {
+      font-size: 15px;
+      text-align: center;
+      font-weight: 500;
+     }
+
+
+
+     #container .heading .class button{
+      width: 40%;
+      font-size: 19px;
+      padding: 8px;
+     }
+
+     #content{
+      display: block;
+      align-items: center;
+     }
+
+
+     #content h1{
+      font-size: 30px;
+      margin-bottom: 3rem;
+     }
+
+
+     #content .content-head{
+      display: block;
+      align-items: center;
+      
+     }
+
+
+     #content .content-head .div{
+      text-align: center;
+     }
+
+
+     #content .image button{
+      width: 60%;
+     }
+
+
+
+     #confirm {
+      display: block;
+      align-items: center;
+     }
+
+
+     #confirm .confirm-head h3{
+      font-size: 20px;
+
+     }
+
+
+     #confirm .confirm-head p{
+      font-size: 15px;
+
+     }
+
+
+     #order {
+      display: block;
+      align-items: center;
+
+     }
+
+
+     #order .order-div p{
+      font-size:10px ;
+     }
+
+
+     #product{
+      display: block;
+     }
+
+
+     /* #about{
+      display: block;
+      align-items: center;
+     } */
+
+
+     #about .about-head p{
+      font-size: 15px;
+     }
+
+
+     #about .about-head .btn button {
+      width: 50%;
+      font-size: 10px;
+     }
+
+
+
+     #customer .customer-image{
+      display: block;
+     }
+
+
+     #pricing{
+      display: block;
+     }
+
+
+
+     #pricing .pricing-header{
+      display: block;
+      align-items: center;
+     }
+
+
+     #pricing .pricing-header .pricing-div{
+      text-align: center;
+      margin-top: 3rem;
+     } 
+
+
+
+     #pricing .pricing-header .pricing-div h1{
+      margin-bottom: 1rem;
+      font-size: 25px;
+     }
+
+
+
+     #pricing .pricing-header .pricing-div ul{
+      font-size: 20px;
+     }
+
+
+     #pricing .pricing-header .head{
+      text-align: center;
+    }
+
+    #pricing .pricing-header .head input{
+      width: 50%;
+    }
+
+
+    #footer{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+
+    #footer h1{
+      font-size: 10px;
+      font-weight: 300;
+    
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* 
